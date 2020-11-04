@@ -61,10 +61,10 @@ Caused by: java.net.SocketTimeoutException: Connect timed out
 
 
 
-2.![image-20201104171717053](C:\Users\shenqingwen\AppData\Roaming\Typora\typora-user-images\image-20201104171717053.png)
+2.![image](docs\images\MyDeployNotes\image-20201104171717053.png)
 
 运行ui时出现如上错误。
 
 解决：从别处找到一个如下文件夹，放入到路径：D:\ProgramData\GitKraken_Repository\spring-microservice-exam\frontend\spring-microservice-exam-ui\node_modules
 
-![](C:\Users\shenqingwen\AppData\Roaming\Typora\typora-user-images\image-20201104173228165.png)
+![image](docs\images\MyDeployNotes\image-20201104173228165.png)
