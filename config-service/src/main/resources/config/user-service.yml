@@ -10,9 +10,9 @@ spring:
   datasource:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/${DB_USER:microservice-user}?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=CTT&characterEncoding=UTF-8
     username: ${MYSQL_USERNAME:root}
-    password: ${MYSQL_PASSWORD:11}
+    password: ${MYSQL_PASSWORD:sqw@19940609}
     type: com.zaxxer.hikari.HikariDataSource
-    driver-class-name: com.mysql.jdbc.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
   redis:
     host: ${REDIS_HOST:localhost}
     port: ${REDIS_PORT:6379}
